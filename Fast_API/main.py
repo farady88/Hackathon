@@ -2,9 +2,12 @@
 import json
 from pathlib import Path
 
+import anthropic
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
+
+from Fast_API.agent import run_agent
 
 app = FastAPI(title="Lynceus")
 
@@ -18,15 +21,11 @@ class AskRequest(BaseModel):
 
 class AskResponse(BaseModel):
     answer: str
+    sources: list[dict] = []  # the top 3 search hits the answer is based on
 
 
 class EmbedResponse(BaseModel):
     embedded: int
-
-
-def run_agent(question: str) -> str:
-    """Feed the question to the agent and return its answer. Not built yet."""
-    raise NotImplementedError
 
 
 def embed_corpus() -> int:
@@ -42,9 +41,15 @@ def not_implemented(request, exc):
     return JSONResponse(status_code=501, content={"detail": "not implemented yet"})
 
 
+@app.exception_handler(anthropic.AnthropicError)
+def claude_failed(request, exc):
+    # Missing API key, outage, rate limit: show the reason instead of a bare 500
+    return JSONResponse(status_code=502, content={"detail": f"Claude API error: {exc}"})
+
+
 @app.post("/ask")
 def ask(body: AskRequest) -> AskResponse:
-    return AskResponse(answer=run_agent(body.question))
+    return AskResponse(**run_agent(body.question))
 
 
 @app.post("/embed")

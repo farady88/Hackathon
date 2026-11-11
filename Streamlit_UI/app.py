@@ -29,6 +29,9 @@ with st.form("ask"):
         result = call("POST", "/ask", json={"question": question})
         if result:
             st.write(result["answer"])
+            if result.get("sources"):
+                st.caption("Based on these search results")
+                st.dataframe(result["sources"])
 
 st.header("Look up a case")
 with st.form("case"):

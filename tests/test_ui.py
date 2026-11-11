@@ -22,13 +22,19 @@ def test_case_lookup_shows_record(monkeypatch):
     assert "case-142" in at.json[0].value
 
 
-def test_unknown_case_and_stubbed_ask_show_errors(monkeypatch):
+def test_unknown_case_shows_error(monkeypatch):
     at = run_ui(monkeypatch)
     at.text_input[1].set_value("case-nope")
     at.button[1].click().run()
     assert "404" in at.error[0].value
 
+
+def test_ask_shows_answer_and_sources(monkeypatch):
+    monkeypatch.setattr("Fast_API.main.run_agent", lambda question: {
+        "answer": "See case-142.", "sources": [{"id": "case-142", "score": 0.4}]})
+    at = run_ui(monkeypatch)
     at.text_input[0].set_value("ERP consolidation?")
     at.button[0].click().run()
-    # Flip to checking the answer once run_agent is implemented
-    assert "501" in at.error[0].value
+    assert not at.exception and not at.error
+    assert any("See case-142." in m.value for m in at.markdown)
+    assert len(at.dataframe) == 1

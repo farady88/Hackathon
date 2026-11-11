@@ -8,6 +8,12 @@ uvicorn
 streamlit
 requests
 
+# Ask agent (Fast_API/agent.py) and search (lynceus-search/search.py)
+anthropic
+python-dotenv  # reads ANTHROPIC_API_KEY from a .env file in the repo root
+pandas
+scikit-learn
+
 # Corpus loader (pipeline/load.py)
 langdetect
 

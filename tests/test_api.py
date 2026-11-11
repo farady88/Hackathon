@@ -18,9 +18,11 @@ def test_record_by_case_id():
     assert client.get("/records/case-nope").status_code == 404
 
 
-def test_ask_is_a_stub_for_now():
-    # Flip to 200 once run_agent is implemented
-    assert client.post("/ask", json={"question": "ERP consolidation?"}).status_code == 501
+def test_ask_returns_agent_answer_and_sources(monkeypatch):
+    fake = {"answer": "See case-142.", "sources": [{"id": "case-142", "score": 0.4}]}
+    monkeypatch.setattr("Fast_API.main.run_agent", lambda question: fake)
+    r = client.post("/ask", json={"question": "ERP consolidation?"})
+    assert r.status_code == 200 and r.json() == fake
 
 
 def test_ask_rejects_empty_or_missing_question():
