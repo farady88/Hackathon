@@ -33,6 +33,9 @@ def embed_corpus() -> int:
     """Embed the corpus and return how many records were embedded. Not built yet."""
     raise NotImplementedError
 
+@app.get("/health") 
+def health():
+    return{"status": "Ok"}
 
 @app.exception_handler(NotImplementedError)
 def not_implemented(request, exc):
