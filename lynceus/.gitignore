@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.venv/
+.env
+.env.*
+
+# NEVER commit hackathon case material or output into this public repository.
+corpus/*
+!corpus/.gitkeep
+enriched/drafts/*
+!enriched/drafts/.gitkeep
+enriched/reviewed/*
+!enriched/reviewed/.gitkeep
+reports/*
+!reports/.gitkeep
+evaluation/test_set.json
+evaluation/live_round.json
+evaluation/held_back.json
+*answer*key*
+*file*map*.csv
+*Confidential*

@@ -1,0 +1,7 @@
+[
+  {"id":"LIVE01", "question":"REPLACE WITH HELD-BACK QUESTION 1", "expected_case_ids":null, "expect_no_match":false, "rationale":"Unknown ground truth. Do not tune to this question."},
+  {"id":"LIVE02", "question":"REPLACE WITH HELD-BACK QUESTION 2", "expected_case_ids":null, "expect_no_match":false, "rationale":"Unknown ground truth. Do not tune to this question."},
+  {"id":"LIVE03", "question":"REPLACE WITH HELD-BACK QUESTION 3", "expected_case_ids":null, "expect_no_match":false, "rationale":"Unknown ground truth. Do not tune to this question."},
+  {"id":"LIVE04", "question":"REPLACE WITH HELD-BACK QUESTION 4", "expected_case_ids":null, "expect_no_match":false, "rationale":"Unknown ground truth. Do not tune to this question."},
+  {"id":"LIVE05", "question":"REPLACE WITH HELD-BACK QUESTION 5", "expected_case_ids":null, "expect_no_match":false, "rationale":"Unknown ground truth. Do not tune to this question."}
+]
