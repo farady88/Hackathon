@@ -21,3 +21,6 @@ evaluation/held_back.json
 *answer*key*
 *file*map*.csv
 *Confidential*
+
+# Voyage vectors may encode sensitive source content. NEVER commit.
+enriched/vectors/

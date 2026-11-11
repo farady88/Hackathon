@@ -228,7 +228,7 @@ def top_source_sentences(case_id, query, n=2):
     ranking.sort(reverse=True, key=lambda row: (row[0], row[1]))
     chosen = [c for _,_,c in ranking if len(c['text']) >= 15][:n]
     if len(chosen)<n:
-        chosen.extend(c for c in candidates if c not in chosen)[:n-len(chosen)]
+        chosen.extend([c for c in candidates if c not in chosen][:n-len(chosen)])
     return chosen
 
 
