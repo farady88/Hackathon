@@ -270,6 +270,15 @@
     "data_issues": []
   },
   {
+    "case_id": "case-994",
+    "source_path": "corpus_live/case-994.txt",
+    "batch": "live",
+    "language": "ro",
+    "text_original": "După achiziția unei afaceri de nutriție și biosciences (345 de locații, inclusiv 100 de unități de producție și laboratoare, peste 500 de aplicații), IFF a apelat la Veridane pentru tranziția post-fuziune. Un flux esențial a fost integrarea sistemelor de calitate, SampleManager LIMS și Northwest Analytics Focus EMI (enterprise manufacturing intelligence), în operațiunile IFF. LIMS, o instanță globală partajată de cinci fabrici, cu aproximativ 8 aplicații integrate, peste 300 de utilizatori și peste 400 de interfețe, a fost tranziționat și migrat din Azure în AWS, cu transfer de cunoștințe către personalul IFF. Rezultate: go-live reușit, procese de control al calității mai eficiente, transparente și conforme și o bază cloud scalabilă.",
+    "text_english": null,
+    "data_issues": []
+  },
+  {
     "case_id": "case-251",
     "source_path": "corpus_live/case-251.txt",
     "batch": "live",
@@ -338,15 +347,6 @@
     "batch": "live",
     "language": "no",
     "text_original": "Fincantieri og Veridane etablerte Fincantieri Ingenium (et 70/30-JV med Fincantieri NexTech) for å digitalisere skipsproduktet og havnelogistikken. Flaggskipet Navis Sapiens er en AI-drevet smartskip-plattform og et digitalt økosystem med åpen arkitektur som integrerer systemer om bord, applikasjoner og en markedsplass for tredjepartsløsninger. Funksjonene omfatter sanntidsovervåking av energiforbruk, ruteoptimalisering, prediktivt vedlikehold og deteksjon av cybertrusler (f.eks. GPS-spoofing), samt interoperabilitet mellom sjø og land. Første fartøy i drift i februar 2026. Forventet effekt: ca. 15 % lavere TCO, ca. 5 % drivstoffbesparelse og 100 % sanntidsovervåking av kjernesystemer.",
-    "text_english": null,
-    "data_issues": []
-  },
-  {
-    "case_id": "case-994",
-    "source_path": "corpus_live/case-994.txt",
-    "batch": "live",
-    "language": "ro",
-    "text_original": "După achiziția unei afaceri de nutriție și biosciences (345 de locații, inclusiv 100 de unități de producție și laboratoare, peste 500 de aplicații), IFF a apelat la Veridane pentru tranziția post-fuziune. Un flux esențial a fost integrarea sistemelor de calitate, SampleManager LIMS și Northwest Analytics Focus EMI (enterprise manufacturing intelligence), în operațiunile IFF. LIMS, o instanță globală partajată de cinci fabrici, cu aproximativ 8 aplicații integrate, peste 300 de utilizatori și peste 400 de interfețe, a fost tranziționat și migrat din Azure în AWS, cu transfer de cunoștințe către personalul IFF. Rezultate: go-live reușit, procese de control al calității mai eficiente, transparente și conforme și o bază cloud scalabilă.",
     "text_english": null,
     "data_issues": []
   }
