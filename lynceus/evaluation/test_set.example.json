@@ -1,0 +1,62 @@
+[
+  {
+    "id":"Q01", "question":"A bank needs to modernise thousands of old data-validation rules without manually rewriting each one.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"CROSS-SECTOR candidate from the brief: fisheries/European Commission validation-rule work, despite financial-services wording. PRODUCT OWNER MUST ADD ACTUAL CASE ID."
+  },
+  {
+    "id":"Q02", "question":"A water utility needs to spot pipe leaks much faster using remote sensing and AI.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"CROSS-SECTOR candidate from brief: US gas-network methane-leak detection; actual case ID must be checked."
+  },
+  {
+    "id":"Q03", "question":"Can we find a past delivery showing AI to reduce a contact-centre backlog or classify incoming customer cases?",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"JARGON variation: customer contact, citizen triage, support backlog. Verify that such a case exists before labelling."
+  },
+  {
+    "id":"Q04", "question":"A government organisation wants to improve data quality and automate checks at scale.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Public-sector wording; product owner to select actual sources, not fabricate ground truth."
+  },
+  {
+    "id":"Q05", "question":"Find a useful example of monitoring physical infrastructure using sensors and machine learning.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Crosses infrastructure, utility and environmental vocabulary. Label against corpus."
+  },
+  {
+    "id":"Q06", "question":"A client wants to migrate an ageing operational platform to a modern cloud setup.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Technical capability search; actual source must support it."
+  },
+  {
+    "id":"Q07", "question":"Find a case study written in another language about using AI or automation to improve an operational process.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"MULTILINGUAL placeholder. Rewrite this question with an actual need, then identify a non-English relevant case before testing."
+  },
+  {
+    "id":"Q08", "question":"An industrial client wants to predict failures or operational disruptions before they happen.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Outcome-based search, not vendor-specific. Confirm actual case and expected ID."
+  },
+  {
+    "id":"Q09", "question":"We need a reusable data platform that combines several different information sources into one place.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Reusable capability search. Confirm case exists."
+  },
+  {
+    "id":"Q10", "question":"A transport operator needs to minimise manual handling of large volumes of records.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Outcome/vocabulary stress test. Confirm a match exists; otherwise change to a case-supported question."
+  },
+  {
+    "id":"Q11", "question":"We need proven technology for quantum teleportation of passengers to Mars in real time.",
+    "expected_case_ids":[], "expect_no_match":true,
+    "rationale":"Expected NO MATCH, subject to product-owner confirmation that this is outside the corpus."
+  },
+  {
+    "id":"Q12", "question":"An insurance business needs to make claims processing faster with automation.",
+    "expected_case_ids":null, "expect_no_match":false,
+    "rationale":"Optional business-framed query. Verify against corpus; convert to no-match if appropriate."
+  }
+]
