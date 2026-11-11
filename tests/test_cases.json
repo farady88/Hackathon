@@ -49,14 +49,18 @@
     },
     {
         "id": "TC05",
-        "category": "multilingual",
-        "question": "Have we helped a multinational manufacturer bring together separate finance and operations systems to create more consistent processes across the business?",
+        "category": "industry_jargon",
+        "question": "Have we helped companies use AI to improve customer service, automate routine enquiries and support contact-centre agents?",
         "expected_case_ids": [
-            "case-142"
+            "case-302",
+            "case-678"
         ],
-        "expected_title": "Johnson Controls – 175 ERPs to Two Cloud Platforms",
+        "expected_title": [
+            "VMO2 – AI-Powered Customer Experience",
+            "Best Buy – Gen AI Customer Support"
+        ],
         "expect_no_match": false,
-        "source_language": "Indonesian",
+        "source_language": "English",
         "source_style": "industry_jargon"
     },
     {
