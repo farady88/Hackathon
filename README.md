@@ -105,15 +105,25 @@ Potential areas for improvement include:
 
 # 9. Tools and Languages used within the project
 ## AI Layer and RAG pipeline tools: 
+
 VS Code
+
 python
+
 Anthropic SDK
+
 Github
+
 Git
+
 Voyage AI
+
 Chroma DB
+
 Claude
+
 Streamlit
+
 FastAPI
 
 ## Search Engineer 
