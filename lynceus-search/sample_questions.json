@@ -1,0 +1,18 @@
+
+[
+  {
+    "question": "Have we moved a hospital's electronic patient records to the cloud?",
+    "expected_clients": [
+      "Mount Sinai Health System"
+    ],
+    "category": "plain"
+  },
+  {
+    "question": "Have we helped a client turn into a business it can sell or share?",
+    "expected_clients": [
+      "Vodafone",
+      "Shinogi"
+    ],
+    "category": "jargon"
+  }
+]

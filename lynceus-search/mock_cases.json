@@ -1,0 +1,12 @@
+[
+  {
+    "id": "demo-001",
+    "client": "Demo Hospital",
+    "sector": "Healthcare",
+    "problem": "A hospital needs to migrate patient records to the cloud",
+    "capability": "Cloud migration",
+    "reusable": "Moving electronic patient records to cloud infrastructure",
+    "summary": "A fictional hospital migrated its electronic records to the cloud. The fictional project improved access to patient information.",
+    "source": "demo-001.txt"
+  }
+]
