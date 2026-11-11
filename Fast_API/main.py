@@ -57,3 +57,11 @@ def records() -> list[dict]:
     if not RECORDS.exists():
         raise HTTPException(404, "data/records.json not found, run pipeline/load.py first")
     return json.loads(RECORDS.read_text(encoding="utf-8"))
+
+
+@app.get("/records/{case_id}")
+def record(case_id: str) -> dict:
+    for r in records():
+        if r["case_id"] == case_id:
+            return r
+    raise HTTPException(404, f"no record with case_id '{case_id}'")
