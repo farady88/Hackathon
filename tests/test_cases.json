@@ -2,33 +2,36 @@
     {
         "id": "TC01",
         "category": "industry_jargon",
-        "question": "A bank needs a cloud-native core banking transformation without interrupting millions of daily transactions. Have we delivered something similar?",
+        "question": "Have we helped a bank modernise its core banking platform using cloud-native technology without disrupting millions of daily transactions?",
         "expected_case_ids": [
             "case-845"
         ],
         "expected_title": "Commonwealth Bank of Australia – Core Banking on Cloud",
+        "expect_no_match": false,
         "source_language": "English",
         "source_style": "industry_jargon"
     },
     {
         "id": "TC02",
         "category": "cross_industry",
-        "question": "A bank has thousands of old validation rules that need rewriting for a modern platform. Could GenAI help?",
+        "question": "A bank has thousands of old validation rules that need rewriting for a modern platform. Have we used GenAI to solve a similar problem?",
         "expected_case_ids": [
             "case-746"
         ],
         "expected_title": "European Commission DG MARE – AI to Safeguard Fisheries",
+        "expect_no_match": false,
         "source_language": "English",
         "source_style": "industry_jargon"
     },
     {
         "id": "TC03",
         "category": "multilingual",
-        "question": "An insurer wants customers to get claims decisions faster without waiting for someone to manually review every case.",
+        "question": "Have we helped an insurance company speed up claims processing and reduce the need for manual reviews?",
         "expected_case_ids": [
             "case-195"
         ],
         "expected_title": "AXA Belgium – Claims in the Cloud",
+        "expect_no_match": false,
         "source_language": "French",
         "source_style": "industry_jargon"
     },
@@ -40,61 +43,67 @@
             "case-393"
         ],
         "expected_title": "Bristol Myers Squibb – Gen AI-Accelerated Clinical Trials",
+        "expect_no_match": false,
         "source_language": "Spanish",
         "source_style": "industry_jargon"
     },
     {
         "id": "TC05",
         "category": "multilingual",
-        "question": "A multinational manufacturer has different business units running separate finance and operations systems. They want consistent processes and a unified view of the business.",
+        "question": "Have we helped a multinational manufacturer bring together separate finance and operations systems to create more consistent processes across the business?",
         "expected_case_ids": [
             "case-142"
         ],
         "expected_title": "Johnson Controls – 175 ERPs to Two Cloud Platforms",
+        "expect_no_match": false,
         "source_language": "Indonesian",
         "source_style": "industry_jargon"
     },
     {
         "id": "TC06",
         "category": "industry_jargon",
-        "question": "A retailer wants GenAI-powered customer self-service and real-time agent-assist capabilities to reduce contact-centre handling effort.",
+        "question": "Have we implemented GenAI-powered customer self-service and real-time agent-assist capabilities to reduce contact-centre workloads for a retailer?",
         "expected_case_ids": [
             "case-678"
         ],
         "expected_title": "Best Buy – Gen AI Customer Support",
+        "expect_no_match": false,
         "source_language": "English",
         "source_style": "industry_jargon"
     },
     {
         "id": "TC07",
         "category": "plain",
-        "question": "A technology company cannot easily see where its equipment is while being shipped between countries. It wants to get supplies to the right locations and stop wasting money.",
+        "question": "Have we helped a technology company track equipment being shipped around the world so it can get supplies to the right places and reduce unnecessary costs?",
         "expected_case_ids": [
             "case-557"
         ],
         "expected_title": "Microsoft – Cloud Supply Chain at the Speed of AI",
+        "expect_no_match": false,
         "source_language": "English",
         "source_style": "plain_language"
     },
     {
         "id": "TC08",
         "category": "cross_industry",
-        "question": "A logistics company wants to use live data from connected industrial networks to identify operational problems sooner. Have we delivered a similar capability?",
+        "question": "A logistics company wants to use live data from connected industrial networks to spot operational problems sooner. Have we delivered a similar capability in another industry?",
         "expected_case_ids": [
             "case-757"
         ],
         "expected_title": "Belden Horizon – Edge & AI Industrial Platform",
+        "expect_no_match": false,
         "source_language": "English",
         "source_style": "plain_language"
     },
     {
         "id": "TC09",
         "category": "multilingual",
-        "question": "Public-sector mainframe modernisation with minimal disruption to citizens.",
+        "question": "Have we helped a public-sector organisation modernise its ageing mainframe systems without disrupting services to citizens?",
         "expected_case_ids": [
             "case-549"
         ],
         "expected_title": "Singapore CPF Board – Social Security Modernisation",
+        "expect_no_match": false,
         "source_language": "Malay",
         "source_style": "plain_language"
     },
