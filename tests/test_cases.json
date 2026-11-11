@@ -3,60 +3,70 @@
         "id": "TC01",
         "category": "plain",
         "question": "Have we helped a bank replace its old core banking system without disrupting customers?",
-        "expected_case_ids": ["case-845"]
+        "expected_case_ids": ["case-845"],
+        "expected_response": "Commonwealth Bank of Australia – Core Banking on Cloud (Industry jargon)"
     },
     {
         "id": "TC02",
         "category": "cross_industry",
         "question": "Have we helped a bank use generative AI to modernise thousands of legacy business rules?",
-        "expected_case_ids": ["case-746"]
+        "expected_case_ids": ["case-746"],
+        "expected_response": "European Commission DG MARE – AI to Safeguard Fisheries (Industry jargon)"
     },
     {
         "id": "TC03",
         "category": "multilingual",
         "question": "Have we helped an insurance company process claims faster using automation?",
-        "expected_case_ids": ["case-195"]
+        "expected_case_ids": ["case-195"],
+        "expected_response":"AXA Belgium – Claims in the Cloud (French)"
     },
     {
         "id": "TC04",
         "category": "multilingual",
         "question": "Have we used AI to identify risks earlier during clinical trials?",
-        "expected_case_ids": ["case-393"]
+        "expected_case_ids": ["case-393"],
+        "expected_response":"Bristol Myers Squibb – Gen AI-Accelerated Clinical Trials (Spanish)"
     },
     {
         "id": "TC05",
         "category": "multilingual",
         "question": "Have we helped a company consolidate hundreds of separate ERP systems?",
-        "expected_case_ids": ["case-142"]
+        "expected_case_ids": ["case-142"],
+        "expected_response":"Johnson Controls – 175 ERPs to Two Cloud Platforms (Indonesian)"
     },
     {
         "id": "TC06",
         "category": "plain",
         "question": "Have we used AI to help a retailer answer customer questions automatically?",
-        "expected_case_ids": ["case-678"]
+        "expected_case_ids": ["case-678"],
+        "expected_response":"Best Buy – Gen AI Customer Support (Industry jargon)"
     },
     {
         "id": "TC07",
         "category": "plain",
         "question": "Have we helped a company improve hardware supply-chain visibility and reduce costs?",
-        "expected_case_ids": ["case-557"]
+        "expected_case_ids": ["case-557"],
+        "expected_response":"Microsoft – Cloud Supply Chain at the Speed of AI (Plain language)"
     },
     {
         "id": "TC08",
         "category": "plain",
         "question": "Have we helped an industrial company use AI to monitor connected factory networks and spot problems sooner?",
-        "expected_case_ids": ["case-757"]
+        "expected_case_ids": ["case-757"],
+        "expected_response":"Belden Horizon – Edge & AI Industrial Platform (Plain language)"
     },
     {
         "id": "TC09",
         "category": "multilingual",
         "question": "Have we helped an organisation modernise its mainframe applications to improve digital services?",
-        "expected_case_ids": ["case-549"]
+        "expected_case_ids": ["case-549"],
+        "expected_response":"Singapore CPF Board – Social Security Modernisation (Malay)"
     },
     {
         "id": "TC10",
         "category": "no_match",
         "question": "Have we implemented blockchain technology to trace supermarket food products from farms to stores?",
-        "expected_case_ids": []
+        "expected_case_ids": [],
+        "expected_response":""
     }
 ]
