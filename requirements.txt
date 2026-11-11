@@ -1,0 +1,16 @@
+# Install everything with: pip install -r requirements.txt
+
+# API (Fast_API/main.py)
+fastapi>=0.162  # older versions break with the Starlette 1.x that Streamlit installs
+uvicorn
+
+# UI (Streamlit_UI/app.py)
+streamlit
+requests
+
+# Corpus loader (pipeline/load.py)
+langdetect
+
+# Tests
+pytest
+httpx  # needed by FastAPI's TestClient
