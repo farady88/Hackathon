@@ -131,6 +131,15 @@ pytest: runs the tests on the loader
 
 # 10. Team
 Hackathon: Accenture x Sparta Global
+
+Delivery Lead: Veerpal
+Business Analysts: Noah and Hussein
+Data Engineer: Dylan and Ayoola 
+Search Engineer: Al-Ameen
+Agent engineer: Faaruq 
+Evaluation Lead: Inam
+Evidence & Demo Lead: Hasan
+
 Project: Lynceus
 Date: 11 November 2026
 
