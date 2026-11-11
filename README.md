@@ -128,14 +128,20 @@ FastAPI
 
 ## Search Engineer 
 Python: Used to build the search engine, process project data, execute searches and return ranked results.
+
 TF-IDF (Term Frequency–Inverse Document Frequency): Used to convert project descriptions and user queries into numerical vectors, assigning importance to words based on their frequency across the dataset.
+
 Cosine Similarity: Used to compare the user's query vector against each project's vector, calculate similarity scores and rank projects from most to least relevant.
 
 ## Tools used for data pipeline:
 Python: the language the pipeline is written in
+
 json: saves the records and the issues as JSON files
+
 pathlib: finds and reads the files and folders
+
 langdetect: works out the language of each file
+
 pytest: runs the tests on the loader
 
 
