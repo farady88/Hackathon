@@ -113,6 +113,8 @@ Git
 Voyage AI
 Chroma DB
 Claude
+Streamlit
+FastAPI
 
 ## Search Engineer 
 Python
