@@ -103,11 +103,46 @@ Potential areas for improvement include:
 
  - Preparing the solution for deployment within an appropriate secure environment.
 
-# 9. Team
+# 9. Tools and Languages used within the project
+## AI Layer and RAG pipeline tools: 
+VS Code
+python
+Anthropic SDK
+Github
+Git
+Voyage AI
+Chroma DB
+Claude
+Streamlit
+FastAPI
+
+## Search Engineer 
+Python: Used to build the search engine, process project data, execute searches and return ranked results.
+TF-IDF (Term Frequency–Inverse Document Frequency): Used to convert project descriptions and user queries into numerical vectors, assigning importance to words based on their frequency across the dataset.
+Cosine Similarity: Used to compare the user's query vector against each project's vector, calculate similarity scores and rank projects from most to least relevant.
+
+## Tools used for data pipeline:
+Python: the language the pipeline is written in
+json: saves the records and the issues as JSON files
+pathlib: finds and reads the files and folders
+langdetect: works out the language of each file
+pytest: runs the tests on the loader
+
+
+# 10. Team
 Hackathon: Accenture x Sparta Global
+
+Delivery Lead: Veerpal
+Business Analysts: Noah and Hussein
+Data Engineer: Dylan and Ayoola 
+Search Engineer: Al-Ameen
+Agent engineer: Faaruq 
+Evaluation Lead: Inam
+Evidence & Demo Lead: Hasan
+
 Project: Lynceus
 Date: 11 November 2026
 
-# 10. Responsible Use of Data
+# 11. Responsible Use of Data
 
 Project information must be handled in accordance with the hackathon's data-handling requirements. AI-generated information must be reviewed by humans, and claims presented in search results must be traceable to their original sources.

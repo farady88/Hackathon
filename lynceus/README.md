@@ -105,3 +105,7 @@ Run `python3 -m unittest discover -s tests -v`, `python3 lynceus.py status`, `py
 ## Public-repository safety
 
 The `.gitignore` deliberately excludes original cases, generated enrichments, evaluation results, actual test labels, and any answer keys. Keep those artefacts in the approved private team environment and do not force-add them with `git add -f`. Your team must check whether any populated audit/evidence pack is permitted for judging submission, using an approved **private** repository if necessary.
+
+## Optional Voyage embeddings (experimental)
+
+See [`docs/VOYAGE_EMBEDDINGS.md`](docs/VOYAGE_EMBEDDINGS.md) for the separate multilingual embedding/hybrid search CLI and safety prerequisites.
