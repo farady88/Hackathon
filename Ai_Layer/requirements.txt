@@ -1,0 +1,7 @@
+anthropic
+pydantic>=2
+python-dotenv
+
+# Only needed once the embedded corpus is wired into knowledge_store.EmbeddedStore:
+# chromadb
+# voyageai
