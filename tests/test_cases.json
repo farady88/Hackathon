@@ -1,63 +1,62 @@
-
 [
-  {
-    "id": "TC01",
-    "question": "A bank wants to use generative AI to modernise thousands of legacy business rules. Have we delivered something similar?",
-    "category": "cross_industry",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC02",
-    "question": "A water company wants to use AI and sensor data to identify infrastructure leaks more quickly.",
-    "category": "cross_industry",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC03",
-    "question": "A financial services company wants to migrate its legacy systems to the cloud to improve scalability and reduce maintenance costs.",
-    "category": "industry_technology",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC04",
-    "question": "A government organisation wants to reduce the number of customer enquiries waiting to be processed using automation.",
-    "category": "semantic_matching",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC05",
-    "question": "A client wants to automate repetitive data-validation tasks using generative AI.",
-    "category": "capability_matching",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC06",
-    "question": "An English-speaking client wants examples of previous work improving operational efficiency through AI, including relevant projects originally documented in another language.",
-    "category": "multilingual",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC07",
-    "question": "An energy provider wants to use predictive analytics and real-time monitoring to detect operational problems before they become serious.",
-    "category": "semantic_matching",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC08",
-    "question": "A client needs evidence that AI automation can reduce processing times for large volumes of business rules.",
-    "category": "outcome_matching",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC09",
-    "question": "A client wants examples of previous projects combining AI, cloud infrastructure and environmental monitoring.",
-    "category": "multi_criteria",
-    "expected_case_ids": []
-  },
-  {
-    "id": "TC10",
-    "question": "A client wants to develop a teleportation system that can instantly transport people between countries.",
-    "category": "no_match",
-    "expected_case_ids": []
-  }
+    {
+        "id": "TC01",
+        "category": "plain",
+        "question": "Have we helped a bank replace its old core banking system without disrupting customers?",
+        "expected_case_ids": ["case-845"]
+    },
+    {
+        "id": "TC02",
+        "category": "cross_industry",
+        "question": "Have we helped a bank use generative AI to modernise thousands of legacy business rules?",
+        "expected_case_ids": ["case-746"]
+    },
+    {
+        "id": "TC03",
+        "category": "multilingual",
+        "question": "Have we helped an insurance company process claims faster using automation?",
+        "expected_case_ids": ["case-195"]
+    },
+    {
+        "id": "TC04",
+        "category": "multilingual",
+        "question": "Have we used AI to identify risks earlier during clinical trials?",
+        "expected_case_ids": ["case-393"]
+    },
+    {
+        "id": "TC05",
+        "category": "multilingual",
+        "question": "Have we helped a company consolidate hundreds of separate ERP systems?",
+        "expected_case_ids": ["case-142"]
+    },
+    {
+        "id": "TC06",
+        "category": "plain",
+        "question": "Have we used AI to help a retailer answer customer questions automatically?",
+        "expected_case_ids": ["case-678"]
+    },
+    {
+        "id": "TC07",
+        "category": "plain",
+        "question": "Have we helped a company improve hardware supply-chain visibility and reduce costs?",
+        "expected_case_ids": ["case-557"]
+    },
+    {
+        "id": "TC08",
+        "category": "plain",
+        "question": "Have we helped an industrial company use AI to monitor connected factory networks and spot problems sooner?",
+        "expected_case_ids": ["case-757"]
+    },
+    {
+        "id": "TC09",
+        "category": "multilingual",
+        "question": "Have we helped an organisation modernise its mainframe applications to improve digital services?",
+        "expected_case_ids": ["case-549"]
+    },
+    {
+        "id": "TC10",
+        "category": "no_match",
+        "question": "Have we implemented blockchain technology to trace supermarket food products from farms to stores?",
+        "expected_case_ids": []
+    }
 ]
